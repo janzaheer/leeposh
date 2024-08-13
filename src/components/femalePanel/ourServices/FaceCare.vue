@@ -37,7 +37,7 @@
                   <tbody class="bg-white divide-y divide-gray-200">
                     <tr
                       class="cursor-pointer hover:bg-gray-50"
-                      v-for="item in FaceCareData[0].BreadData"
+                      v-for="item in FaceCareData[0].FaceCareData"
                       :key="item.id"
                     >
                       <td class="py-2 px-4">{{ item.name }}</td>
@@ -50,7 +50,7 @@
               </div>
             </div>
           </div>
-          <div class="mx-auto max-w-2xl my-14">
+          <!-- <div class="mx-auto max-w-2xl my-14">
             <div>
               <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">
                 {{ FaceCareData[1].title }}
@@ -181,8 +181,8 @@
                 </table>
               </div>
             </div>
-          </div>
-          <div class="">
+          </div> -->
+          <div class="mt-2">
             <Whatsapp />
           </div>
         </div>
@@ -193,16 +193,16 @@
 </template>
 
 <script>
-import { FaceCareData } from "../../../db/male-db";
-import Header from "../header/Header.vue";
-import Footer from "../footer/Footer.vue";
-import Whatsapp from '../../whatsappBtn/Whatsapp.vue'
+import { FaceCareData } from '@/db/female-db'
+import Header from '@/components/femalePanel/header/FemaleHeader.vue'
+import Footer from '@/components/femalePanel/footer/FemaleFooter.vue'
+import Whatsapp from '@/components/whatsappBtn/Whatsapp.vue'
 export default {
-  name: 'FaceCareList',
+  name: 'FaceCare',
 
   data() {
     return {
-      FaceCareData:FaceCareData
+        FaceCareData:FaceCareData
     };
   },
   components: {
@@ -212,6 +212,7 @@ export default {
   },
 
   mounted() {
+    window.scroll(0, 0);
   },
 
   methods: {

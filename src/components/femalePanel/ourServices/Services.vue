@@ -10,21 +10,42 @@
             <div class="border-b-2"></div>
             <div
                 class="mt-4 grid grid-cols-1 gap-x-4 gap-y-5 sm:grid-cols-2 md:grid-cols-2 md:gap-x-2 lg:grid-cols-4 xl:gap-x-1">
-                <div v-for="data in servicesData" :key="data.id">
-                    <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-pink-300 hover:bg-gray-100 dark:hover:bg-pink-400 transition-colors duration-300 cursor-pointer"
-                        @click="openModal(data)">
-
-                        <img class="rounded-t-lg h-56 w-full" :src="data.img" alt="" />
-
-                        <div class="p-1 text-center">
-
-                            <h5 class="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">
-                                {{ data?.title }}</h5>
-                            <p class="mb-3 font-normal text-white dark:text-white">{{ data.title2 }}</p>
-                        </div>
-                    </div>
-                </div>
-
+                <RouterLink to="/FaceCare">
+                    <CardListVue title="Face Care" img="https://images.unsplash.com/photo-1647004692483-c5d942fe1137?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/HairStyle">
+                    <CardListVue title="Hair Styling" img="https://images.unsplash.com/photo-1592328906746-0a3ca0bde253?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/HairCut">
+                    <CardListVue title="Hair Cut" img="https://plus.unsplash.com/premium_photo-1661576866935-6e92c2f2e9f3?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/Colouring">
+                    <CardListVue title="Colouring & Texturing" img="https://images.unsplash.com/photo-1518567730414-d34329607948?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/WaxList">
+                    <CardListVue title="Waxing" img="https://images.unsplash.com/photo-1529982412356-901cc3a363cf?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/HairTreatment">
+                    <CardListVue title="Hair Treatment" img="https://plus.unsplash.com/premium_photo-1674841253335-6c892a8b1dc1?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/ThreadingList">
+                    <CardListVue title="Threading" img="https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3" />
+                </RouterLink>
+                <RouterLink to="/MakeupList">
+                    <CardListVue title="Makeup" img="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/BridalList">
+                    <CardListVue title="Bridal Package" img="https://images.unsplash.com/photo-1695972775752-5e9a7d9f6d92?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/Massage">
+                    <CardListVue title="Massage" img="https://plus.unsplash.com/premium_photo-1661274213751-0ccaaffdecac?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/PedicureList">
+                    <CardListVue title="Pedicure" img="https://plus.unsplash.com/premium_photo-1661868958612-7d52c5fb9647?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
+                <RouterLink to="/ManicureList">
+                    <CardListVue title="Manicure" img="https://plus.unsplash.com/premium_photo-1661497566854-7a75d3e98996?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                </RouterLink>
             </div>
         </div>
         <!-- -->
@@ -69,9 +90,9 @@
                                     <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Price: {{
                                         modalContent?.price }}</h1>
                                     <div class="flex justify-center">
-                                        <button
+                                        <a :href="`https://wa.me/${'03462789100'}?text=Hello I Am Badini`"
                                             class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Book
-                                            Service at Whatsapp</button>
+                                            Service at Whatsapp</a>
                                     </div>
                                 </div>
                             </div>
@@ -85,31 +106,35 @@
 </template>
 
 <script>
-import { servicesData } from '../../../db/female-db'
+import { RouterLink } from 'vue-router'
+// import { servicesData } from '../../../db/female-db'
+import CardListVue from './CardList.vue';
 export default {
     name: 'Services',
 
     data() {
         return {
-            servicesData: servicesData,
-            isModalOpen: false,
-            modalContent: null,
+            // servicesData: servicesData,
+            // isModalOpen: false,
+            // modalContent: null,
         };
     },
-
+    components:{
+        CardListVue
+    },
     mounted() {
 
     },
 
     methods: {
-        openModal(data) {
-            this.modalContent = data;
-            this.isModalOpen = true;
-        },
-        closeModal() {
-            this.isModalOpen = false;
-            this.modalContent = null;
-        },
+        // openModal(data) {
+        //     this.modalContent = data;
+        //     this.isModalOpen = true;
+        // },
+        // closeModal() {
+        //     this.isModalOpen = false;
+        //     this.modalContent = null;
+        // },
     },
 };
 </script>

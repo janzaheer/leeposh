@@ -9,22 +9,19 @@
             <p class="text-lg font-bold tracking-tight text-slate-500">
               Book Appointment
             </p>
-  
-            <div
-              class="mt-4 grid grid-cols-1 gap-x-4 gap-y-5 sm:grid-cols-1 md:grid-cols-2 md:gap-x-2 lg:grid-cols-2 xl:gap-x-14"
-            >
+            <div class="mt-4 grid grid-cols-1 gap-x-4 gap-y-5 sm:grid-cols-1 md:grid-cols-2 md:gap-x-2 lg:grid-cols-2 xl:gap-x-14">
               <div class="">
                 <img
                   alt="ecommerce"
                   class="lg:w-full w-full lg:h-auto h-64 object-cover object-center rounded"
-                  :src="CoulouringData[0]?.img"
+                  :src="ThreadingData[0].img"
                 />
               </div>
               <div>
                 <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">
-                  {{ CoulouringData[0]?.title }}
+                  {{ ThreadingData[0].title }}
                 </h1>
-                <p class="leading-relaxed mb-4">{{ CoulouringData[0]?.description }}</p>
+                <p class="leading-relaxed mb-4">{{ ThreadingData[0].description }}</p>
                 <div class="w-full">
                   <table class="w-full border-collapse bg-gray-100 text-left">
                     <thead class="bg-gray-800 text-white">
@@ -40,7 +37,7 @@
                     <tbody class="bg-white divide-y divide-gray-200">
                       <tr
                         class="cursor-pointer hover:bg-gray-50"
-                        v-for="item in CoulouringData[0].TexturingData"
+                        v-for="item in ThreadingData[0].ThreadData"
                         :key="item.id"
                       >
                         <td class="py-2 px-4">{{ item.name }}</td>
@@ -53,7 +50,7 @@
                 </div>
               </div>
             </div>
-            <div class="">
+            <div class="mt-2">
               <Whatsapp />
             </div>
           </div>
@@ -62,31 +59,32 @@
       <Footer />
     </div>
   </template>
-
-<script>
-import { CoulouringData } from "../../../db/male-db";
-import Header from "../header/Header.vue";
-import Footer from "../footer/Footer.vue";
-import Whatsapp from '../../whatsappBtn/Whatsapp.vue'
-export default {
-  name: 'ColouringList',
-
-  data() {
-    return {
-        CoulouringData: CoulouringData
-    };
-  },
-  components: {
-    Header,
-    Footer,
-    Whatsapp
-  },
-  mounted() {
-
-  },
-
-  methods: {
-    
-  },
-};
-</script>
+  
+  <script>
+  import { ThreadingData } from '@/db/female-db'
+  import Header from '@/components/femalePanel/header/FemaleHeader.vue'
+  import Footer from '@/components/femalePanel/footer/FemaleFooter.vue'
+  import Whatsapp from '@/components/whatsappBtn/Whatsapp.vue'
+  export default {
+    name: 'ThreadingList',
+  
+    data() {
+      return {
+        ThreadingData:ThreadingData
+      };
+    },
+    components: {
+      Header,
+      Footer,
+      Whatsapp
+    },
+  
+    mounted() {
+      window.scroll(0, 0);
+    },
+  
+    methods: {
+      
+    },
+  };
+  </script>

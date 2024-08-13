@@ -105,9 +105,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="text-center my-6">
-                        <button class="px-6 py-3 bg-green-500 text-white hover:bg-green-600">Book Now</button>
-                    </div>
+                    <div class="">
+                        <Whatsapp />
+                     </div>
                 </div>
             </div>
         </div>
@@ -119,6 +119,7 @@
 import { GroomingData } from "../../../db/male-db";
 import Header from "../header/Header.vue";
 import Footer from "../footer/Footer.vue";
+import Whatsapp from '../../whatsappBtn/Whatsapp.vue'
 export default {
   name: 'GroomingList',
 
@@ -130,9 +131,9 @@ export default {
     components: {
         Header,
         Footer,
+        Whatsapp
     },
     mounted() {
-        console.log('dataaaa', this.GroomingData)
     },
 
   methods: {

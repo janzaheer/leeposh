@@ -3,22 +3,16 @@
     <Header />
     <div class="flex-grow mt-14">
       <div class="bg-white">
-        <div
-          class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-14 lg:max-w-7xl lg:px-8"
-        >
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-14 lg:max-w-7xl lg:px-8">
           <p class="text-lg font-bold tracking-tight text-slate-500">
             Book Appointment
           </p>
 
           <div
-            class="mt-4 grid grid-cols-1 gap-x-4 gap-y-5 sm:grid-cols-1 md:grid-cols-2 md:gap-x-2 lg:grid-cols-2 xl:gap-x-14"
-          >
+            class="mt-4 grid grid-cols-1 gap-x-4 gap-y-5 sm:grid-cols-1 md:grid-cols-2 md:gap-x-2 lg:grid-cols-2 xl:gap-x-14">
             <div class="">
-              <img
-                alt="ecommerce"
-                class="lg:w-full w-full lg:h-auto h-64 object-cover object-center rounded"
-                :src="HairCareData[0]?.img"
-              />
+              <img alt="ecommerce" class="lg:w-full w-full lg:h-auto h-64 object-cover object-center rounded"
+                :src="HairCareData[0]?.img" />
             </div>
             <div>
               <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">
@@ -38,11 +32,7 @@
                     </tr>
                   </thead>
                   <tbody class="bg-white divide-y divide-gray-200">
-                    <tr
-                      class="cursor-pointer hover:bg-gray-50"
-                      v-for="item in HairCareData[0]?.data"
-                      :key="item.id"
-                    >
+                    <tr class="cursor-pointer hover:bg-gray-50" v-for="item in HairCareData[0]?.data" :key="item.id">
                       <td class="py-2 px-4">{{ item.name }}</td>
                       <td class="py-2 px-4 text-center">
                         Rs.<span>{{ item.price }}</span>
@@ -71,11 +61,8 @@
                     </tr>
                   </thead>
                   <tbody class="bg-white divide-y divide-gray-200">
-                    <tr
-                      class="cursor-pointer hover:bg-gray-50"
-                      v-for="item in HairCareData[1].TreatmentData"
-                      :key="item.id"
-                    >
+                    <tr class="cursor-pointer hover:bg-gray-50" v-for="item in HairCareData[1].TreatmentData"
+                      :key="item.id">
                       <td class="py-2 px-4">{{ item.name }}</td>
                       <td class="py-2 px-4 text-center">
                         Rs.<span>{{ item.price }}</span>
@@ -104,11 +91,8 @@
                     </tr>
                   </thead>
                   <tbody class="bg-white divide-y divide-gray-200">
-                    <tr
-                      class="cursor-pointer hover:bg-gray-50"
-                      v-for="item in HairCareData[3]?.KeratianData"
-                      :key="item.id"
-                    >
+                    <tr class="cursor-pointer hover:bg-gray-50" v-for="item in HairCareData[3]?.KeratianData"
+                      :key="item.id">
                       <td class="py-2 px-4">{{ item.name }}</td>
                       <td class="py-2 px-4 text-center">
                         Rs.<span>{{ item.price }}</span>
@@ -119,8 +103,8 @@
               </div>
             </div>
           </div>
-          <div class="text-center">
-            <button class="px-6 py-3 bg-green-500 text-white hover:bg-green-600">Book Now</button>
+          <div class="">
+            <Whatsapp />
           </div>
         </div>
       </div>
@@ -133,6 +117,7 @@
 import { HairCareData } from "../../../db/male-db";
 import Header from "../header/Header.vue";
 import Footer from "../footer/Footer.vue";
+import Whatsapp from '../../whatsappBtn/Whatsapp.vue'
 export default {
   name: "HairCareList",
 
@@ -144,6 +129,7 @@ export default {
   components: {
     Header,
     Footer,
+    Whatsapp
   },
   mounted() {
   },
