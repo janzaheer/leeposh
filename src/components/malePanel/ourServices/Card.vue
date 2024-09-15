@@ -1,46 +1,36 @@
 <template>
-    <div>
-        <!-- <div v-for="data in servicesData" :key="data.id"> -->
-            <!-- <RouterLink :to='data.url'> -->
-                <div
-                    class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-slate-300 hover:bg-gray-100 dark:hover:bg-slate-400 transition-colors duration-300 cursor-pointer">
+  <div>
+    <div
+      class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-goldColor hover:bg-gray-100 dark:hover:bg-goldHoverColor transition-colors duration-300 cursor-pointer"
+    >
+      <img class="rounded-t-lg h-80 w-full" :src="img" alt="" />
 
-                    <img class="rounded-t-lg h-56 w-full" :src="img" alt="" />
-
-                    <div class="p-1 text-center">
-
-                        <h5 class="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white">
-                            {{ title }}</h5>
-                        <!-- <p class="mb-3 font-normal text-white dark:text-white">{{ data.title2 }}</p> -->
-                    </div>
-                </div>
-            <!-- </RouterLink> -->
-
-        <!-- </div> -->
+      <div class="p-1 text-center">
+        <h5
+          class="mb-2 text-1xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          {{ title }}
+        </h5>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
-import { RouterLink } from 'vue-router'
+import { RouterLink } from "vue-router";
 export default {
-    name: 'Card',
+  name: "Card",
 
-    data() {
-        return {
+  data() {
+    return {};
+  },
+  props: {
+    title: String,
+    img: String,
+  },
 
-        };
-    },
-    props:{
-        title:String,
-        img:String,
-    },
+  mounted() {},
 
-    mounted() {
-
-    },
-
-    methods: {
-
-    },
+  methods: {},
 };
 </script>

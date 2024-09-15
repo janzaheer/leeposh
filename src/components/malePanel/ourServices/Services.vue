@@ -2,8 +2,8 @@
     <div class="bg-white mt-16" id="services">
         <div class="px-4 py-6 sm:px-6 sm:py-24 lg:px-10">
             <div class="">
-                <h2 class="text-4xl text-center text-slate-500">Our Services</h2>
-                <p class="leading-relaxed my-6 text-center">
+                <h2 class="text-4xl text-center text-slate-900">Our Services</h2>
+                <p class="leading-relaxed my-6 text-center text-goldColor">
                     A full range of Beauty and Spa services
                 </p>
             </div>
@@ -13,19 +13,19 @@
                     <Card title="Hair Care" img="https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                 </RouterLink>
                 <RouterLink to="/FaceCareList">
-                    <Card title="Face Care" img="https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    <Card title="Face Care" img="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/faceCare1.jpeg" />
                 </RouterLink>
                 <RouterLink to="/ColouringList">
-                    <Card title="Colouring & Texturing" img="https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    <Card title="Colouring & Texturing" img="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/coloring.jpeg" />
                 </RouterLink>
                 <RouterLink to="/WaxingList">
-                    <Card title="Waxing" img="https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    <Card title="Waxing" img="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/wax.jpeg" />
                 </RouterLink>
                 <RouterLink to="/MassageList">
-                    <Card title="Massage" img="https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    <Card title="Massage" img="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/massage.jpeg" />
                 </RouterLink>
                 <RouterLink to="/GroomingList">
-                    <Card title="Grooming" img="https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    <Card title="Grooming" img="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/groom1.jpeg" />
                 </RouterLink>
             </div>
         </div>

@@ -2,7 +2,7 @@
   <div>
     
 
-<footer class="bg-white dark:bg-slate-500">
+<footer class="bg-white dark:bg-slate-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
@@ -13,15 +13,15 @@
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 ms-10">
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Address</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-goldColor">Address</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="#" class="hover:underline">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</a>
+                          <a href="#" class="hover:underline">House No. 230/C, Panch Footy Roundabout, Samungli Road, Housing Scheme, Quetta, 87312.</a>
                       </li>
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Conatct Us</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-goldColor">Conatct Us</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
                           <a href="#" class="hover:underline ">+923000000000</a>

@@ -3,7 +3,7 @@
     <div
       id="sticky-banner"
       tabindex="-1"
-      class="fixed top-0 start-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-700 dark:border-gray-600 shadow-md"
+      class="fixed top-0 start-0 z-50 flex justify-between w-full p-4 border-b border-gray-200 bg-gray-50 dark:bg-gray-900 dark:border-gray-900 shadow-md"
     >
       <div class="flex items-center mx-auto">
         <p
@@ -13,7 +13,7 @@
             class="inline-flex p-1 me-3 bg-gray-200 rounded-full dark:bg-gray-600 w-6 h-6 items-center justify-center flex-shrink-0"
           >
             <svg
-              class="w-3 h-3 text-gray-500 dark:text-gray-400"
+              class="w-3 h-3 text-gray-500 dark:text-goldColor"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
               fill="currentColor"
@@ -26,10 +26,10 @@
             <span class="sr-only">Light bulb</span>
           </span>
           <span
-            >Welcome to Our Website
+            > <p class="text-white mx-3 text-sm">Welcome to Our Website</p>
             <a
               href="#"
-              class="inline font-medium text-blue-600 underline dark:text-blue-500 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline"
+              class="inline font-medium text-pinkColor underline dark:text-pinkColor underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline"
               >Leeposh</a
             ></span
           >

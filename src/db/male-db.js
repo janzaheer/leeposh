@@ -71,7 +71,7 @@ export const FaceCareData = [
         id: 1,
         title: "Bread & Shave",
         description: "A classic men's haircut, often referred to as a standard or normal cut, where the hair is trimmed and shaped to maintain a neat and clean appearance.",
-        img: "https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/faceCare2.jpeg",
         BreadData: [
             {
                 name: "Simple Trimming",
@@ -183,7 +183,7 @@ export const CoulouringData = [
         id: 1,
         title: "Colouring & Texturing",
         description: "A classic men's haircut, often referred to as a standard or normal cut, where the hair is trimmed and shaped to maintain a neat and clean appearance.",
-        img: "https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/coloring.jpeg",
         TexturingData: [
             {
                 name: "Loreal",
@@ -229,7 +229,7 @@ export const WaxingData = [
         id: 1,
         title: "Face Wax",
         description: "A classic men's haircut, often referred to as a standard or normal cut, where the hair is trimmed and shaped to maintain a neat and clean appearance.",
-        img: "https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/wax.jpeg",
         FaceData: [
             {
                 name: "Full Face wax with cooling mask",
@@ -270,7 +270,7 @@ export const WaxingData = [
                 price: '1600'
             },
             {
-                name: "Cheast",
+                name: "Chest",
                 price: '2000'
             },
             {
@@ -297,7 +297,7 @@ export const MassageData = [
         id: 1,
         title: "Massage",
         description: "Relaxing and therapeutic massage services for stress relief and muscle relaxation.",
-        img: "https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/massage.jpeg",
         MassageBodyData: [
             {
                 name: "Head Massage",
@@ -391,7 +391,7 @@ export const GroomingData = [
         id: 1,
         title: "Two Days Package",
         description: "A classic men's haircut, often referred to as a standard or normal cut, where the hair is trimmed and shaped to maintain a neat and clean appearance.",
-        img: "https://plus.unsplash.com/premium_photo-1665203406912-4fbd99560a90?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/groom2.jpeg",
         price: 12000
     },
     {

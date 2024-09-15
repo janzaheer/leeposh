@@ -6,7 +6,7 @@
           <div
             class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-14 lg:max-w-7xl lg:px-8"
           >
-            <p class="text-lg font-bold tracking-tight text-slate-500">
+            <p class="text-lg font-bold tracking-tight text-goldColor">
               Book Appointment
             </p>
   
@@ -27,7 +27,7 @@
                 <p class="leading-relaxed mb-4">{{ CoulouringData[0]?.description }}</p>
                 <div class="w-full">
                   <table class="w-full border-collapse bg-gray-100 text-left">
-                    <thead class="bg-gray-800 text-white">
+                    <thead class="bg-goldColor text-white">
                       <tr class="border-b border-gray-300">
                         <th class="py-2 px-4">
                           <h4 class="text-white">Services</h4>
@@ -53,7 +53,7 @@
                 </div>
               </div>
             </div>
-            <div class="">
+            <div class="my-6">
               <Whatsapp />
             </div>
           </div>
@@ -67,7 +67,7 @@
 import { CoulouringData } from "../../../db/male-db";
 import Header from "../header/Header.vue";
 import Footer from "../footer/Footer.vue";
-import Whatsapp from '../../whatsappBtn/Whatsapp.vue'
+import Whatsapp from './../whatsapp/whatsapp-male.vue'
 export default {
   name: 'ColouringList',
 
@@ -82,7 +82,7 @@ export default {
     Whatsapp
   },
   mounted() {
-
+    window.scroll(0,0)
   },
 
   methods: {

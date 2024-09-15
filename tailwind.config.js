@@ -11,6 +11,7 @@ export default {
       },
       colors: {
         goldColor: "#FFD700",
+        goldHoverColor: "#ffdf70",
         pinkColor: "#FFB7CE",
         pinkHoverColor: "#FFC7D9"
       }
