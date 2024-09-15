@@ -285,7 +285,8 @@ export const MakeupData = [
         id: 1,
         title: "Makeup",
         description: "Professional makeup services for all occasions, enhancing your natural beauty with high-quality products.",
-        img: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        // img: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fMakeup.jpeg",
         MakeupData: [
             {
                 name: "Party Makeup",
@@ -319,7 +320,8 @@ export const FaceCareData = [
         id: 1,
         title: "Face Care",
         description: "Treats dry & dull skin. Treats acne-prone & oily skin. Rejuvenates and improves the vibrancy of skin tone. Fixes uneven skin texture, brown spots, and pigmentation.",
-        img: "https://images.unsplash.com/photo-1647004692483-c5d942fe1137?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        // img: "https://images.unsplash.com/photo-1647004692483-c5d942fe1137?q=80&w=3431&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fFaceCare2.jpeg",
         FaceCareData: [
             {
                 name: "Janssen Facial",
@@ -357,7 +359,8 @@ export const ManicureData = [
         id: 1,
         title: "Manicure",
         description: "Professional manicure services for well-groomed and beautiful nails.",
-        img: "https://plus.unsplash.com/premium_photo-1661497566854-7a75d3e98996?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        // img: "https://plus.unsplash.com/premium_photo-1661497566854-7a75d3e98996?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fMeni2.jpeg",
         ManiData: [
             {
                 name: "Regular Manicure",
@@ -387,7 +390,8 @@ export const PedicureData = [
         id: 1,
         title: "Pedicure",
         description: "Pampering pedicure services for healthy and beautiful feet",
-        img: "https://plus.unsplash.com/premium_photo-1661868958612-7d52c5fb9647?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        // img: "https://plus.unsplash.com/premium_photo-1661868958612-7d52c5fb9647?q=80&w=3348&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fPedi.jpeg",
         PediData: [
             {
                 name: "Regular Pedicure",
@@ -413,7 +417,8 @@ export const ThreadingData = [
         id: 1,
         title: "Threading",
         description: "Precise and gentle eyebrow and facial hair threading for a polished look.",
-        img: "https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3",
+        // img: "https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fThread.jpeg",
         ThreadData: [
             {
                 name: "Full Face Threading",
@@ -484,7 +489,8 @@ export const WaxingData = [
         id: 1,
         title: "Face Wax",
         description: "A classic women's haircut, often referred to as a standard or normal cut, where the hair is trimmed and shaped to maintain a neat and clean appearance.",
-        img: "https://images.unsplash.com/photo-1529982412356-901cc3a363cf?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        // img: "https://images.unsplash.com/photo-1529982412356-901cc3a363cf?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fwax2.jpeg",
         FaceData: [
             {
                 name: "Full Face with mask",
@@ -568,8 +574,9 @@ export const CoulouringData = [
         id: 1,
         title: "One Tone Dye",
         description: "Expert hair coloring services using top-quality products for vibrant and long-lasting color.",
-        img: "https://images.unsplash.com/photo-1518567730414-d34329607948?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        OneToneData: [
+       // img: "https://images.unsplash.com/photo-1518567730414-d34329607948?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/Fcolouring.jpeg", 
+       OneToneData: [
             {
                 name: "Root Touch-Up",
                 price: '2000'
@@ -626,8 +633,9 @@ export const HairCuteData = [
         id: 1,
         title: "Hair Cut",
         description: "A classic women's haircut, often referred to as a standard or normal cut, where the hair is trimmed and shaped to maintain a neat and clean appearance.",
-        img: "https://plus.unsplash.com/premium_photo-1661576866935-6e92c2f2e9f3?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        data: [
+       // img: "https://plus.unsplash.com/premium_photo-1661576866935-6e92c2f2e9f3?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fHairCut.jpeg", 
+       data: [
             {
                 name: "Cut",
                 price: '2,500'
@@ -664,8 +672,9 @@ export const HairStyleData = [
         id: 1,
         title: "Hair Styling",
         description: "A classic women's hair styling, often referred to as a standard or normal cut, where the hair is trimmed and shaped to maintain a neat and clean appearance.",
-        img: "https://images.unsplash.com/photo-1592328906746-0a3ca0bde253?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        HairStyledata: [
+       // img: "https://images.unsplash.com/photo-1592328906746-0a3ca0bde253?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+       img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fHairStyle.jpeg", 
+       HairStyledata: [
             {
                 name: "Updo",
                 price: '1,500 - 3000'

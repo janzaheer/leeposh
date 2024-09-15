@@ -11,7 +11,7 @@
               viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span class="ml-3 text-xl">Leeposh Footer</span>
+            <span class="ml-3 text-xl">Leeposh</span>
           </RouterLink>
           <p class="mt-2 text-sm text-gray-500">Leeposh Beauty Salon provides luxurious beauty and spa treatments
             tailored to enhance your natural beauty. Enjoy expert care and top-quality products in a relaxing
@@ -22,8 +22,7 @@
             <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Address</h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-gray-600 hover:text-gray-800">Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry.</a>
+                <a class="text-gray-600 hover:text-gray-800">House No. 230/C, Panch Footy Roundabout, Samungli Road, Housing Scheme, Quetta, 87312</a>
               </li>
             </nav>
           </div>

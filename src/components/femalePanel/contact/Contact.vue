@@ -10,14 +10,15 @@
 
                 <div
                     class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                    
                     <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map"
-                        marginheight="0" marginwidth="0" scrolling="no"
-                        src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+                        marginheight="0" marginwidth="0" scrolling="no" loading="lazy"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.6860498782803!2d66.98337757624236!3d30.217506774836927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ed2e13af8a4400f%3A0xf1eeada5a7265667!2sLeeposh%20Beauty%20Salon!5e0!3m2!1sen!2s!4v1726399490123!5m2!1sen!2s"
                         style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
                     <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
                         <div class="lg:w-1/2 px-6">
                             <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
-                            <p class="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
+                            <p class="mt-1">House No. 230/C, Panch Footy Roundabout, Samungli Road,  Housing Scheme, Quetta, 87312</p>
                         </div>
                         <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
@@ -47,8 +48,7 @@
                     </div>
                     <button
                         class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-                    <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook
-                        viral artisan.</p>
+                    <p class="text-xs text-gray-500 mt-3">Contact Leeposh.</p>
                 </div>
             </div>
         </section>
