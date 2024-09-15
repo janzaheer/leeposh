@@ -35,7 +35,7 @@
                     <CardListVue title="Makeup" img="https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
                 </RouterLink>
                 <RouterLink to="/BridalList">
-                    <CardListVue title="Bridal Package" img="https://images.unsplash.com/photo-1695972775752-5e9a7d9f6d92?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    <CardListVue title="Bridal Package" img="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/Fbridal.jpeg" />
                 </RouterLink>
                 <RouterLink to="/Massage">
                     <CardListVue title="Massage" img="https://plus.unsplash.com/premium_photo-1661274213751-0ccaaffdecac?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
