@@ -21,7 +21,7 @@
             <p class="leading-relaxed text-lg">
                 Let us help your beauty manifest while you relax in our sanctuary. At Leeposh Beauty Salons, we offer a full range of hair, beauty and spa services. We invite you to schedule an appointment with us today and experience the full scope of our services.
             </p>
-            <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+            <span class="inline-block h-1 w-10 rounded bg-pinkColor mt-8 mb-6"></span>
             <p class="text-gray-500">Senior Product Designer Zedtac</p>
           </div>
         </div>
