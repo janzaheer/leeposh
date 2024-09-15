@@ -19,7 +19,7 @@
         </div>
         <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Address</h2>
+            <h2 class="title-font font-medium text-goldColor tracking-widest text-xl mb-3">Address</h2>
             <nav class="list-none mb-10">
               <li>
                 <a class="text-gray-600 hover:text-gray-800">House No. 230/C, Panch Footy Roundabout, Samungli Road, Housing Scheme, Quetta, 87312</a>
@@ -27,7 +27,7 @@
             </nav>
           </div>
           <div class="lg:w-1/4 md:w-1/2 w-full px-4">
-            <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Conatct Us</h2>
+            <h2 class="title-font font-medium text-goldColor tracking-widest text-xl mb-3">Conatct Us</h2>
             <nav class="list-none mb-10">
               <li>
                 <a class="text-gray-600 hover:text-gray-800">+923300000000</a>
@@ -39,7 +39,7 @@
           </div>
         </div>
       </div>
-      <div class="bg-pink-500">
+      <div class="bg-pinkColor">
         <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p class="text-white text-sm text-center sm:text-left">© 2024 Leeposh —
             <a href="#" rel="noopener noreferrer" class="text-white ml-1" target="_blank">@Copyright</a>

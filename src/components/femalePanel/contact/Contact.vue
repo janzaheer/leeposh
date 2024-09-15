@@ -2,8 +2,8 @@
     <div>
         <section class="text-gray-600 body-font relative" id="contact">
             <div class="text-center">
-                <h1 class="text-4xl text-pink-500">Contact Us</h1>
-                <p class="leading-relaxed my-6">have a question? Let us know.</p>
+                <h1 class="text-4xl text-goldColor">Contact Us</h1>
+                <p class="leading-relaxed text-pinkColor my-6">have a question? Let us know.</p>
             </div>
 
             <div class="container px-5 p-10 mx-auto flex sm:flex-nowrap flex-wrap">

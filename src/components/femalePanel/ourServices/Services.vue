@@ -2,7 +2,7 @@
     <div class="bg-white mt-16" id="services">
         <div class="px-4 py-6 sm:px-6 sm:py-24 lg:px-10">
             <div class="">
-                <h2 class="text-4xl text-center text-pink-500">
+                <h2 class="text-4xl text-center text-goldColor">
                     Our Services
                 </h2>
                 <p class="leading-relaxed my-6 text-center">A full range of Beauty and Spa services</p>

@@ -8,6 +8,10 @@ export default {
     extend: {
       fontFamily:{
         body: ["Stylish", "serif"]
+      },
+      colors: {
+        goldColor: "#FFD700",
+        pinkColor: "#FFB7CE"
       }
     },
   },
