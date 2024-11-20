@@ -448,7 +448,7 @@ export const HairTreatmentData = [
         id: 1,
         title: "Keratein",
         description: "Precise and gentle eyebrow and facial hair threading for a polished look.",
-        img: "https://plus.unsplash.com/premium_photo-1674841253335-6c892a8b1dc1?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fKeratin.jpeg",
         KerateinData: [
             {
                 name: "Level One",
@@ -467,7 +467,7 @@ export const HairTreatmentData = [
     {
         id: 2,
         title: "Protein",
-        img: "https://plus.unsplash.com/premium_photo-1674841253335-6c892a8b1dc1?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        img: "https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/leeposh-pic/fKeratin.jpeg",
         ProteinData: [
             {
                 name: "Level One",

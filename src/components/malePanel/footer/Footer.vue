@@ -7,8 +7,8 @@
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
               <RouterLink to="/" class="flex items-center">
-                  <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 me-3" alt="FlowBite Logo" />
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Leeposh</span>
+                  <img src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Lee-Posh-Male-Logo.png" class="h-10 me-3 bg-white" alt="FlowBite Logo" />
+                  <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Leeposh</span> -->
               </RouterLink>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2 ms-10">
@@ -24,11 +24,11 @@
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-goldColor">Conatct Us</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="#" class="hover:underline ">+923000000000</a>
+                          <a href="#" class="hover:underline ">081 2503749</a>
                       </li>
-                      <li>
+                      <!-- <li>
                           <a href="#" class="hover:underline">+923000000000</a>
-                      </li>
+                      </li> -->
                   </ul>
               </div>
           </div>

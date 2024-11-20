@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+        <div id="default-carousel" class="relative w-full mt-24" data-carousel="slide">
             <!-- Carousel wrapper -->
             <div class="mt-[50px] relative w-full h-[30vh] sm:h-[40vh] md:h-[40vh] lg:h-[100vh]">
                 <!-- Item -->

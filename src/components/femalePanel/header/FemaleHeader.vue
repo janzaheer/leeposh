@@ -1,14 +1,14 @@
 <template>
   <div>
-    <nav class="bg-white border-gray-200 fixed top-0 left-0 right-0 z-50 shadow-md">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav class="bg-black border-gray-200 fixed top-0 left-0 right-0 z-50 shadow-md">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-0">
         <RouterLink to="/femaledashboard" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            class="h-8"
+            src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Female-Logo-Lee-Posh.png"
+            class="w-full h-[100px]"
             alt="Flowbite Logo"
           />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-goldColor">Leeposh</span>
+          <!-- <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-goldColor">Leeposh</span> -->
         </RouterLink>
         <button
           @click="toggleMenu"
@@ -29,7 +29,7 @@
           </svg>
         </button>
         <div :class="[menuOpen ? 'block' : 'hidden', ' w-full md:block md:w-auto']" id="navbar-default">
-          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-white md:dark:bg-white dark:border-white">
+          <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-black md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-black dark:bg-black md:dark:bg-black dark:border-black">
             <li>
               <a
                 href="#"

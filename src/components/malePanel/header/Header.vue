@@ -1,14 +1,13 @@
 <template>
   <div>
-    <nav class="bg-white border-gray-200 dark:bg-white fixed top-0 left-0 right-0 z-50 shadow-md">
+    <nav class="bg-white border-gray-200 dark:bg-white fixed top-0 left-0 right-0 z-50 shadow-md mb-4">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <RouterLink to="/maledashboard" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img
-            src="https://flowbite.com/docs/images/logo.svg"
-            class="h-8"
+            src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Lee-Posh-Male-Logo.png"
+            class="w-full h-[100px]"
             alt="Flowbite Logo"
           />
-          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-slate-900">Leeposh Male</span>
         </RouterLink>
         <button
           @click="toggleMenu"

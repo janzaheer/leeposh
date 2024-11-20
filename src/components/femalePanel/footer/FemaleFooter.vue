@@ -6,11 +6,7 @@
         <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <RouterLink to="/"
             class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
-              stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
-              viewBox="0 0 24 24">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
+            <img src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Female-Logo-Lee-Posh.png" class="h-10" alt="">
             <span class="ml-3 text-xl">Leeposh</span>
           </RouterLink>
           <p class="mt-2 text-sm text-gray-500">Leeposh Beauty Salon provides luxurious beauty and spa treatments
@@ -30,11 +26,11 @@
             <h2 class="title-font font-medium text-goldColor tracking-widest text-xl mb-3">Conatct Us</h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-gray-600 hover:text-gray-800">+923300000000</a>
+                <a class="text-gray-600 hover:text-gray-800">081-2503749</a>
               </li>
-              <li>
+              <!-- <li>
                 <a class="text-gray-600 hover:text-gray-800">+923300000000</a>
-              </li>
+              </li> -->
             </nav>
           </div>
         </div>

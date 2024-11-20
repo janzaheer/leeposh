@@ -1,7 +1,7 @@
 <template>
   <div class="text-center my-3">
     <a
-      :href="`https://wa.me/${'+923462789100'}?text=Hello Leeposh Saloon`"
+      :href="`https://wa.me/${'+923344443606'}?text=Hello Leeposh Saloon`"
       class="flex items-center justify-center gap-2 px-6 py-3 bg-pinkColor text-white hover:bg-pinkHoverColor"
     >
       <svg

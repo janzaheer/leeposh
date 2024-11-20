@@ -23,7 +23,7 @@
                             <h2 class="title-font font-semibold text-goldColor tracking-widest text-xs">EMAIL</h2>
                             <a class="text-indigo-500 leading-relaxed">example@email.com</a>
                             <h2 class="title-font font-semibold text-goldColor tracking-widest text-xs mt-4">PHONE</h2>
-                            <p class="leading-relaxed">123-456-7890</p>
+                            <p class="leading-relaxed">081 2503749</p>
                         </div>
                     </div>
                 </div>
