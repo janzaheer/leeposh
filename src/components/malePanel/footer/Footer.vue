@@ -22,14 +22,19 @@
               </div>
               <div>
                   <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-goldColor">Conatct Us</h2>
-                  <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                      <li class="mb-4">
-                          <a href="#" class="hover:underline ">081 2503749</a>
-                      </li>
-                      <!-- <li>
-                          <a href="#" class="hover:underline">+923000000000</a>
-                      </li> -->
-                  </ul>
+                  <nav class="list-none">
+                    <li class="space-y-1">
+                        <a href="#" class="block text-gray-500 dark:text-gray-400 hover:underline">
+                        info@leeposh.pk
+                        </a>
+                        <a href="#" class="block text-gray-500 dark:text-gray-400 hover:underline">
+                            081-2503749
+                        </a>
+                        <a href="#" class="block text-gray-500 dark:text-gray-400 hover:underline">
+                            +92335-4704701
+                        </a>
+                    </li>
+                </nav>
               </div>
           </div>
       </div>

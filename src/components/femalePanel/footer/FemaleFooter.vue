@@ -48,8 +48,16 @@
               Contact Us
             </h2>
             <nav class="list-none">
-              <li>
-                <a class="text-gray-600 hover:text-gray-800">081-2503749</a>
+              <li class="space-y-1">
+                <a href="#" class="block text-gray-600 hover:underline">
+                  info@leeposh.pk
+                </a>
+                <a href="#" class="block text-gray-600 hover:underline">
+                  081-2503749
+                </a>
+                <a href="#" class="block text-gray-600 hover:underline">
+                  +923344443606
+                </a>
               </li>
             </nav>
           </div>
