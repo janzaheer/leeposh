@@ -95,7 +95,7 @@
                 ></path>
               </svg>
             </a>
-            <a class="ml-3 text-white">
+            <!-- <a class="ml-3 text-white">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -108,8 +108,8 @@
                   d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
                 ></path>
               </svg>
-            </a>
-            <a class="ml-3 text-white">
+            </a> -->
+            <a class="ml-3 text-white" href="https://www.instagram.com/leeposh_beauty_salon?igsh=ejg0NnNrZDk5cDd2">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -125,7 +125,7 @@
                 ></path>
               </svg>
             </a>
-            <a class="ml-3 text-white">
+            <!-- <a class="ml-3 text-white">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
@@ -141,7 +141,7 @@
                 ></path>
                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
               </svg>
-            </a>
+            </a> -->
           </span>
         </div>
       </div>
