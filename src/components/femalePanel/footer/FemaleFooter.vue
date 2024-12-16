@@ -53,10 +53,10 @@
                   info@leeposh.pk
                 </a>
                 <a href="#" class="block text-gray-600 hover:underline">
-                  081-2503749
+                  (081) 2503749
                 </a>
                 <a href="#" class="block text-gray-600 hover:underline">
-                  +923344443606
+                  +92 334 4443606
                 </a>
               </li>
             </nav>
@@ -81,7 +81,7 @@
           <span
             class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
           >
-            <a class="text-white">
+            <!-- <a class="text-white">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -94,7 +94,7 @@
                   d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
                 ></path>
               </svg>
-            </a>
+            </a> -->
             <!-- <a class="ml-3 text-white">
               <svg
                 fill="currentColor"
