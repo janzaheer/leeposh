@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="bg-white border-gray-200 dark:bg-white fixed top-0 left-0 right-0 z-50 shadow-md mb-4">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-0">
         <RouterLink to="/maledashboard" class="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="https://wood-veneer-new.s3.ap-northeast-1.amazonaws.com/Lee-Posh-Male-Logo.png"
